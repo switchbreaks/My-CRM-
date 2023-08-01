@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Playfair+Display:wght@400;600&display=swap');
+.chatgetData{
+    padding: 15px 0px 15px 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    right: 0;
+}
+.subCharDiv{
+    overflow-y: scroll;
+    overflow-x:hidden;
+    height: 300px;
+    scroll-behavior: smooth;
+    background-color: #fcfcfa;
+}
+.subCharDiv::-webkit-scrollbar{
+ display: none;
+}
+.scrollable{
+    /* background-color: red; */
+    margin-bottom: 30px;
+}
+.arrow{
+    clip-path: polygon(100% 0, 0 0, 100% 100%);
+    background-color: white;
+}
+.chatData_P{
+    margin: 0px 0px 0px 50px;
+    padding: 7px 0px 7px 7px;
+    background-color: rgb(237, 237, 237);
+    font-size: small;
+    letter-spacing: .75px;
+    text-align: justify;
+    border-radius: 7px 0px 0px 15px;
+    font-weight: 600;
+    /* box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px; */
+}
+.dateSpan{
+    float: right;
+    font-weight: 400;
+    padding: 12px 2px 0px 15px;
+    font-size: 10px;
+}

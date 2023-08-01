@@ -1,0 +1,70 @@
+.homee{
+    display: flex;
+    /* this line of code help to show the icone in side bar  */
+}
+.homeContainer{
+    flex: 6;
+}
+.tdbgColor{
+    color: white;
+    font-size: small;
+    border-radius: 4px;
+}
+.welcome{
+    font-family: 'Dancing Script', cursive;
+}
+.smallFont{
+    font-size: 15px;
+}
+.smallSublect{
+    max-width: 200px;
+    text-align: justify;
+    height: 10px;
+    cursor: pointer;
+}
+.detailStstus{
+    font-size: 14px;
+    position: absolute;
+    background-color: rgb(230, 229, 229);
+    color: rgb(21, 13, 13);
+    padding: 20px;
+    margin: 40px;
+    border-radius: 3px;
+    letter-spacing: .5px;
+    backdrop-filter: blur(15px);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  /* border-radius: 10px; */
+
+}
+.detailStstus::backdrop{
+    background-color: aqua;
+}
+.marginTable{
+    padding: 20px;
+    border-radius: 3px;
+    border: .5px solid black;
+}
+.homegreenText{
+    /* color: #1976D2; */
+    text-transform:capitalize;
+}
+.smallWidth{
+    width: 100px;
+}
+.smallName{
+    width: 170px;
+}
+
+.selecthomeTask{
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    font-size: medium;
+    cursor: pointer;
+}
+.optionTask{
+    width: auto;
+    white-space: nowrap;
+    cursor: pointer;
+    
+}

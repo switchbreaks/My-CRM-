@@ -1,0 +1,11 @@
+.mainSide{
+    height: 100vh;
+
+}
+.sideUl{
+    padding: 5px;
+}
+.sideLi{
+    list-style: none;
+    padding: 15px;
+}

@@ -1,0 +1,30 @@
+.formDiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.btnSubmitAcc{
+    padding: 10px 30px;
+    font-size: large;
+    background-color:  blue;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    margin-left: 17px;
+}
+.accountH3{
+    margin-left: 17px;
+    color: blue;
+}
+.accountMain{
+    padding: 25px;
+}
+.btnSubmitAcc:active{
+    background-color: green;
+}
+.wrongAcpasswd{
+    color: red;
+    margin-left: 2px;
+    margin-top: -15px;
+}

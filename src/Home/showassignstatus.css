@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Playfair+Display:wght@400;600&display=swap');
+.useralldataDiv{
+    width: 100%;
+}
+/* in this css code i am going to target the Information div  */
+.sohidcor{
+    cursor: pointer;
+}
+.taskPriority{
+    border: none;
+    outline: none;
+    border: .5px solid lightgray;
+    border-radius: 4px;
+    padding: 3px;
+}
+.infoMDiv{
+    padding: 25px;
+}
+.subjWidth{
+    width: 450px;
+    text-align: justify;
+
+}
+.tdClass{
+    padding: 2px 90px 15px 0px;
+}
+.centedDiLog{
+  margin: auto;
+  width: 15%;
+  border: 1.5px solid #6c757d;
+  padding: 1px;
+  border-radius: 3px;
+  align-items: center;
+}
+dialog::backdrop { /* native */
+    background-color: green;
+  }
+.updAndCloseBtn{
+    border-radius: 2px;
+    padding: 1px 15px 1px 15px;
+    margin: 1px 7px 4px 2px;
+    float: right;
+}
+.closeTskBtn{
+    border: none;
+    background-color: brown;
+    color: white;
+    border-radius: 3px;
+}
+.priorityDiv{
+    margin:0;
+    width:80px;
+    height:25px;
+    padding:0;
+    vertical-align: none;
+    margin-top :-10px;
+}
+.address{
+    width: 80%leadinfo;
+}
+.css-1869usk-MuiFormControl-root {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    margin: 0px;
+}
+/*  this line of code remove the scroolbar */
+.leadinfo::-webkit-scrollbar{
+    display: none;
+}
+/* this line of code making the .infoeditBtn */
+.infoeditBtn{
+    border: none;
+    background-color: white;
+}
+.sidealldetail{
+    border: .5px solid black;
+    height: 70vh;
+}
+/* this line of code css for the attach File component */
+.attachFile{
+    margin-top: 75px
+}
+/* this line of code set the send email btn size in Showassignstatus.jsx */
+.sendEmlbtn{
+    border-radius: 3px;
+    font-size: small;
+    padding: 4px ,15px, 15px;
+}
+/*--------------------------- end of Showassignstatus.ss --------------------------- */
+
+/* *************  start to css fro the blue update blue tik btn ************** */
+
+.updateStats{
+    border: .5px solid rgb(104, 172, 104);
+    border-radius: 50%;
+    background-color:   rgb(41, 130, 41);
+    color: white;
+}
+.updateStats:active{
+    background-color: rgb(43, 154, 43);
+    color: white;
+}
+.chckLogo{
+    font-size: small;
+    font-weight: bolder;
+    
+}
+
+/* ----------------------------  end of the code   --------------------------- */
+.useralldtNots{
+    border: none;
+    margin: 0;
+    padding: 0%;
+    font-size: small;
+    outline: none;
+    border-bottom: .5px solid rgb(219, 219, 219);
+    font-family: 'Montserrat', sans-serif;
+
+}
+.useralldtNots::-webkit-inner-spin-button{
+    display: none;
+}
+.notsMainDiv{
+    height: 125px;
+    margin: 25px;
+    background-color: rgb(234, 233, 233);
+    border: .5px solid rgb(193, 192, 192);
+}
+.sendBtn_Note{
+    border: none;
+    background-color: white;
+    outline: none;
+    font-size: large;
+    border-radius: 4px;
+    float: right;
+    margin-right: 5px;
+}
+/*  now i am going to start actvtDiv div css */
+.actvtDiv{
+    margin-top:25px;
+}
+.p_actvtDiv{
+    font-size:medium;
+    font-weight: 600;
+}
+.followAndadd{
+    color: blue;
+    cursor: pointer;
+    margin-top: 15px;
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+.followAndadd:hover{
+    text-decoration: underline;
+}
+.add{
+   float: right;
+}
+.iconActv{
+    float: right;
+}
+.task{
+    border: .5px solid gray;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 6px 9px;
+    margin: 9px;
+}
+.maininfo{
+    margin: 5px 0px 5px  11px;
+}
