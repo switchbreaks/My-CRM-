@@ -1,2 +1,4 @@
 # My-CRM-
-#json-server --watch db.json   then  npm start
+first json-server --watch db.json 
+then)  npm start
+and hit y
